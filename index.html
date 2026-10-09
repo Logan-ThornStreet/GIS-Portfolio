@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f3ed">
+    <meta name="description" content="A portfolio of geographic information systems work, spatial analysis, and cartography.">
+    <title>Logan Bowdish — Spatial Analysis &amp; GIS Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Logan Bowdish home">
+        <span class="wordmark-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M3.5 17.1 8.1 7.9l7.1-4.4 8.4 2.1 4.9 7.2-1.8 9-8.2 6-9.6-2.2-5.4-8.5Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><path d="m7.3 17.1 3.1-6.3 5.2-3.1 6.2 1.6 3.4 5.1-1.3 6.2-5.7 4.1-6.7-1.5-3.7-6.1Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><path d="m11.5 16.7 2-3.8 3-1.8 3.5.9 1.9 2.9-.8 3.4-3.2 2.4-3.8-.9-2.6-3.1Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><circle cx="17" cy="16.2" r="1.25" fill="currentColor"/></svg>
+        </span>
+        <span>LOGAN BOWDISH</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#collaborate">Collaborate</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> GIS · SPATIAL ANALYSIS · CARTOGRAPHY</p>
+          <h1>Spatial Analysis<br><span class="highlight">&amp; GIS Explorer.</span></h1>
+          <p class="hero-description">Hey, I'm Logan — an environmental scientist and consultant, and a UCLA master's candidate in San Diego. I'm interested in using spatial analysis to explore environmental questions and better understand how people and places shape one another.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta"><span>BASED IN <strong>San Diego, CA</strong></span><span>STUDYING <strong>UCLA</strong></span><span>WORKS AT <strong>NV5 Inc.</strong></span></div>
+        </div>
+        <div class="hero-art" aria-label="Topographic map illustration with coordinates for San Diego and UCLA" role="img">
+          <div class="map-label map-label-top">FIELD STUDY <span>001—024</span></div>
+          <svg class="contour-map" viewBox="0 0 620 620" fill="none" aria-hidden="true">
+            <path d="M309 30c-81 31-135 37-179 91-41 49-36 101-67 145-28 40-50 73-36 135 13 59 64 105 110 142 55 45 112 71 184 61 69-10 109-56 160-98 47-39 90-73 99-134 10-68-33-109-53-168-24-69-25-123-88-158-45-25-87-37-130-16Z"/>
+            <path d="M309 58c-71 27-118 33-156 80-36 42-32 88-59 126-24 35-43 64-31 118 11 51 56 92 96 124 48 40 98 62 161 53 60-9 95-49 139-86 41-34 78-64 86-117 9-59-29-95-46-146-21-60-22-107-77-138-39-22-76-32-113-14Z"/>
+            <path d="M310 87c-60 23-100 28-133 68-31 36-27 75-50 108-21 30-37 55-27 101 10 44 48 79 82 107 41 34 84 53 138 45 51-8 81-42 119-74 35-29 67-55 74-100 8-51-25-81-39-125-18-52-19-91-66-118-34-18-65-27-98-12Z"/>
+            <path d="M310 116c-49 19-82 23-109 56-25 29-22 61-41 89-17 25-30 45-22 83 8 36 40 65 67 88 34 28 69 43 114 37 42-7 67-35 98-61 29-24 55-45 61-82 7-42-20-67-32-103-15-43-16-75-55-97-28-15-54-22-81-10Z"/>
+            <path d="M311 146c-39 15-64 18-86 44-20 23-18 48-32 70-13 20-24 36-17 65 6 29 31 51 53 69 26 22 54 34 89 29 33-5 52-27 77-48 23-18 43-35 48-64 5-33-16-52-25-81-12-34-13-59-43-76-22-12-42-18-64-8Z"/>
+            <path d="M311 175c-28 11-47 14-63 32-15 17-13 35-23 51-10 14-17 26-13 48 5 21 23 37 39 50 20 16 40 25 65 21 24-4 38-20 56-35 16-13 31-26 34-47 4-24-11-38-18-59-8-25-9-43-31-55-16-9-31-13-46-6Z"/>
+            <path d="M311 204c-18 7-29 9-39 21-10 10-9 21-14 32-6 9-11 16-8 30 3 13 14 23 25 31 12 10 25 16 40 13 15-2 24-12 35-22 10-8 19-16 21-29 2-15-7-24-11-37-6-15-6-27-20-34-10-6-19-8-29-5Z"/>
+            <path class="map-river" d="M96 440c42-43 56-63 96-72 42-9 65 8 104-3 42-11 54-39 94-45 40-6 65 16 107-1 23-9 43-26 61-52"/>
+            <path class="map-route" d="M106 163c34 19 61 27 81 57 22 33 11 58 38 84 26 25 48 22 68 52 21 32 11 52 41 75 28 21 57 17 82 44 18 20 27 44 33 68"/>
+            <circle class="map-point" cx="309" cy="310" r="7"/><circle class="map-point-ring" cx="309" cy="310" r="15"/>
+            <path class="map-cross" d="M518 103v24m-12-12h24M125 326v18m-9-9h18"/>
+          </svg>
+          <div class="map-coordinate"><span><strong>SAN DIEGO, CALIFORNIA</strong><span>32° 42' 56.5" N · 117° 09' 40.0" W</span></span><span><strong>UNIVERSITY OF CALIFORNIA, LOS ANGELES</strong><span>34° 04' 08" N · 118° 26' 43" W</span></span></div>
+          <div class="map-label map-label-bottom"><span>FIG. 01</span> FINDING THE PATTERN</div>
+          <span class="art-stamp" aria-hidden="true">N<br>↑</span>
+        </div>
+        <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div>
+      </section>
+
+      <section class="work-section section-wrap" id="work">
+        <div class="section-heading">
+          <div><p class="eyebrow">PLACEHOLDER</p><h2>Selected work<span class="highlight">.</span></h2></div>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-01">
+              <div class="visual-topline"><span>PLACEHOLDER</span></div>
+              <img class="project-topo-image" src="assets/topography/topo_rainier_clay_lines_1920x1080.webp" alt="Temporary topographic image; replace with a project map" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>PLACEHOLDER</h3>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-02">
+              <div class="visual-topline"><span>PLACEHOLDER</span></div>
+              <img class="project-topo-image" src="assets/topography/topo_tam_sage_relief_1920x1080.webp" alt="Temporary shaded relief image; replace with a project map" loading="lazy">
+            </div>
+            <div class="project-info">
+              <h3>PLACEHOLDER</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-wrap about-inner">
+          <div class="about-graphic photo-graphic">
+            <img class="about-portrait" src="assets/logan-bowdish.jpg" alt="Portrait of Logan Bowdish">
+            <span class="about-graphic-caption"><strong>LOGAN BOWDISH</strong><span>ENVIRONMENTAL CONSULTANT · FIELD SCIENTIST · SPATIAL ANALYST</span></span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">GIS PROFESSIONAL · UCLA MASTER'S CANDIDATE</p>
+            <h2>Spatial thinking,<br>grounded in <span class="highlight">fieldwork.</span></h2>
+            <p class="about-lede">I'm Logan Bowdish, Lead GIS Analyst / Associate Scientist, with 4+ years delivering GIS for water-resources and environmental programs. I lead projects for the California State Water Resources Control Board, San Diego County, the City of Vista, and other municipalities—from field-ready mobile apps and standardized infrastructure databases to spatial analysis, QA/QC, maps, and web deliverables.</p>
+            <p class="about-description">My environmental science and botany training, field monitoring, and FAA Part 107 aerial-imagery work keep my GIS grounded in how data are collected and used. I bring stormwater (NPDES, MS4, illicit discharge detection), flow and water-quality monitoring, and TMDL expertise to my master's studies at UCLA. I'm especially interested in large spatial models (LSMs) and automated geospatial workflows that make spatial analysis more scalable, reproducible, and useful for decision-making. I hold UCSD Extension's GISP certification (2026); my GISP designation is expected in December 2026. I also coauthored a 2023 paper on mycorrhizal fungi, soil factors, and toxic-element uptake in urban-grown produce.</p>
+            <div class="tool-list"><span>EDUCATION &amp; CREDENTIALS</span><div><i>UCLA</i><i>UCSD Extension GISP · 2026</i><i>GISP designation · expected Dec 2026</i><i>B.A. Environmental Science · Connecticut College · 2022</i><i>Botany minor</i><i>FAA Part 107 · 2025</i></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="collaboration-section section-wrap" id="collaborate" aria-labelledby="collaboration-title">
+      <div class="collaboration-copy">
+        <p class="eyebrow">QUESTIONS · PROJECT IDEAS · COLLABORATION</p>
+        <h2 id="collaboration-title">Have a question<br><span class="highlight">or idea?</span></h2>
+        <p>Have a question about my work, a cool project idea, or want to collaborate? Find me on LinkedIn and send me a message. I'd love to hear from you.</p>
+        <a class="button button-dark linkedin-button" href="https://www.linkedin.com/in/loganbowdish/" target="_blank" rel="noopener noreferrer"><svg class="linkedin-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.34H4.96V9.01h2.97v9.33ZM6.44 7.73a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.58 10.61h-2.96v-4.54c0-1.08-.02-2.47-1.51-2.47-1.51 0-1.74 1.18-1.74 2.39v4.62H9.85V9.01h2.84v1.28h.04c.39-.74 1.36-1.51 2.8-1.51 3 0 3.56 1.97 3.56 4.53v5.03h-.03Z"/></svg>Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="collaboration-stamp" aria-hidden="true">
+        <span class="stamp-ring stamp-ring-outer"></span>
+        <span class="stamp-ring stamp-ring-inner"></span>
+        <span class="stamp-center">LB</span>
+        <span class="stamp-caption">OPEN TO GOOD QUESTIONS</span>
+      </div>
+    </section>
+
+    <footer class="site-footer section-wrap">
+      <blockquote class="footer-quote">
+        <p>“That is what it is for there to be an observer in the world, a something it is like something to be.”</p>
+        <cite>Daniel Dennett</cite>
+      </blockquote>
+      <a class="wordmark footer-wordmark" href="#top" aria-label="Logan Bowdish home"><span class="wordmark-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M3.5 17.1 8.1 7.9l7.1-4.4 8.4 2.1 4.9 7.2-1.8 9-8.2 6-9.6-2.2-5.4-8.5Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><path d="m7.3 17.1 3.1-6.3 5.2-3.1 6.2 1.6 3.4 5.1-1.3 6.2-5.7 4.1-6.7-1.5-3.7-6.1Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><path d="m11.5 16.7 2-3.8 3-1.8 3.5.9 1.9 2.9-.8 3.4-3.2 2.4-3.8-.9-2.6-3.1Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/><circle cx="17" cy="16.2" r="1.25" fill="currentColor"/></svg></span><span>LOGAN BOWDISH</span></a>
+      <a class="back-top" href="#top">BACK TO TOP ↑</a>
+      <span class="copyright">© <span id="year"></span> LOGAN BOWDISH</span>
+    </footer>
+  </body>
+</html>
